@@ -22,8 +22,8 @@ First the essays is collected from the online platform and then the essay  goes 
 Further description is stated in subsections.
 
                       
+![Figure 1. Architecture of Automated essay Grading System](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Architecutre.png?raw=true)
 
-Figure 1. Architecture of Automated essay Grading System
 
 
 ### Dataset 
