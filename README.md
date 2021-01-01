@@ -23,12 +23,13 @@ Further description is stated in subsections.
 
                       
 ![Figure 1. Architecture of Automated essay Grading System](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Architecutre.png?raw=true)
-
+Figure 1. Architecture of Automated essay Grading System
 
 
 ### Dataset 
 We have taken the datasets from Hewlett foundation Competition in Kaggle . The dataset is divided into 8 sets , each having its own marking criteria , essay characteristics and qualities.
 Below , table 1 describes the different sets.
+![Table 1. Description of Sets](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Description of set.png?raw=true)
 
 Table 1. Description of Sets
                                               
@@ -57,7 +58,7 @@ Essay grading requires to assess the error done by the students and to get the d
 ### Feature Extraction
 We used mainly Spacy , language check and NLTK for the feature extraction. The essay grammatical errors were identified through the use of language check tool and the corrected essay was made as a feature of the dataset and then the following features were extracted from the corrected essay:
 1.	Grammatical errors: language check tool helps to identify the grammatical errors in the essay and then labels each error in a list.
-2.	Sentence : The corrected essay was tokenized to split the essay into a list of sentences                                                        using SpaCy sentence tokenizer.
+2.	Sentence : The corrected essay was tokenized to split the essay into a list of sentences using SpaCy sentence tokenizer.
 3.	Part of Speech : SpaCy is very efficient for such extraction ,it was used in place of NLTK as its pre-trained neural models help to efficiently identify the parts of speech for the corrected essays and to label them.
 4.	Named Entity Recognized: Essays  prior to be used for the model had already been annotated by hiding the names of Entities using Stanford NLP and therefore converted them into several such  entities identified by NER are: "PERSON", "ORGANIZATION", "LOCATION", "DATE", "TIME", "MONEY", "PERCENT" which start with a ‘@’ . Spacy was used for their identification .
 5.	TF-IDF: The corrected essays after the extraction of the prior stated features was then after lemmatizing with the help of Spacy was then vectorised with the help of sklearn library. It considers the importance of the word in the corpus and increases as the number of times that word occurs in the document.
@@ -67,15 +68,21 @@ Several other features were extracted from these features such as  token count ,
 
 ### Feature Selection 
 After the extraction of the features from the essay the dimensionality of the model was reduced by the help of SelectKBest using Chi square method for each set of essay for  which the result is stated in table 2.
+
+
+![Table 2. 10 Best Features for each set using SelectKBest method](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/best_feature_kbest.png?raw=true)
+
 Table 2. 10 Best Features for each set using SelectKBest method
 
  
 
 To check the correlation of features within themselves such that the model prevents collinearity then visualization was used as stated in fig 2.
-                                 
+
+![Fig 2. Correlation of Features](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Coorelation of features.png?raw=true)
+
 Fig 2. Correlation of Features
 
-Highly correlated features were removed by assessing the Fig 3.
+Highly correlated features were removed by assessing the Fig 2.
 
 #### Models 
 We have experimented with four machine learning models i.e. Linear Support Vector Classification , Linear Regression , Random Forest Regressor and Elastic Net . Linear Support Vector derives a linear decision curve and does not accept a kernel whereas the simplest algorithm is the Linear Regression which uses stochastic gradient descent to find out the best fitting line for the model but it does not avoid overfitting as the dataset is tabulated with features Random forest regression can be very useful. To cure the problem of overfitting, Elastic Net can be used as it adds both types of regularization to Linear regression and  the model can be very much useful.
