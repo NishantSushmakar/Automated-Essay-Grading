@@ -18,20 +18,25 @@ The [7]. proposes a new way to automate the essay grading system using the neura
  
 ### DATA AND EVALUATION
 In this section we have discussed the detailed description of the datasets , tools and packages, preprocessing , featurization , feature selection and models used for the assessment of the essays in the dataset. The dataset used has almost 12976 essays with the average word length of 150-550 words per response. The basic architecture of the Automated Essay Grading model is shown in the Figure 1. 
-First the essays is collected from the online platform and then the essay  goes through basic cleaning then the essay is used for feature extraction from the corrected essay which is tokenized and then this essay will be lemmatized and and then feature selection is done to reduce the dimension of the data following it will be vectorised , then this the essay will be split into training and testing  and then the model is trained through machine learning algorithms and then we can pass essays through the system for the assessment of the essays. 
-Further description is stated in subsections.
+First the essays is collected from the online platform and then the essay  goes through basic cleaning then the essay is used for feature extraction from the corrected essay which is tokenized and then this essay will be lemmatized and and then feature selection is done to reduce the dimension of the data following it will be vectorised , then this the essay will be split into training and testing  and then the model is trained through machine learning algorithms and then we can pass essays through the system for the assessment of the essays. Further description is stated in subsections.
 
                       
-![Figure 1. Architecture of Automated essay Grading System](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Architecutre.png?raw=true)
-Figure 1. Architecture of Automated essay Grading System
+![Alt text](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Architecutre.png?raw=true "Figure 1. Architecture of Automated essay Grading System")
+
+
+
+           
 
 
 ### Dataset 
 We have taken the datasets from Hewlett foundation Competition in Kaggle . The dataset is divided into 8 sets , each having its own marking criteria , essay characteristics and qualities.
 Below , table 1 describes the different sets.
-![Table 1. Description of Sets](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Description of set.png?raw=true)
 
-Table 1. Description of Sets
+
+
+![Alt text](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Description_of_set.png?raw=true "Table 1. Description of Sets")
+
+
                                               
          		
 
@@ -70,17 +75,17 @@ Several other features were extracted from these features such as  token count ,
 After the extraction of the features from the essay the dimensionality of the model was reduced by the help of SelectKBest using Chi square method for each set of essay for  which the result is stated in table 2.
 
 
-![Table 2. 10 Best Features for each set using SelectKBest method](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/best_feature_kbest.png?raw=true)
+![Alt text](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/best_feature_kbest.png?raw=true "Table 2. 10 Best Features for each set using SelectKBest method")
 
-Table 2. 10 Best Features for each set using SelectKBest method
+
 
  
 
 To check the correlation of features within themselves such that the model prevents collinearity then visualization was used as stated in fig 2.
 
-![Fig 2. Correlation of Features](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Coorelation of features.png?raw=true)
+![Alt text](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Coorelation_of_features.png?raw=true "Fig 2. Correlation of Features")
 
-Fig 2. Correlation of Features
+
 
 Highly correlated features were removed by assessing the Fig 2.
 
