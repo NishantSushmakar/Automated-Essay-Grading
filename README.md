@@ -21,7 +21,8 @@ In this section we have discussed the detailed description of the datasets , too
 First the essays is collected from the online platform and then the essay  goes through basic cleaning then the essay is used for feature extraction from the corrected essay which is tokenized and then this essay will be lemmatized and and then feature selection is done to reduce the dimension of the data following it will be vectorised , then this the essay will be split into training and testing  and then the model is trained through machine learning algorithms and then we can pass essays through the system for the assessment of the essays. Further description is stated in subsections.
 
                       
-![Alt text](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Architecutre.png?raw=true "Figure 1. Architecture of Automated essay Grading System")
+![Alt text](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Architecutre.png?raw=true 'Figure 1. Architecture of Automated essay Grading System')
+    
 
 
 
@@ -34,7 +35,8 @@ Below , table 1 describes the different sets.
 
 
 
-![Alt text](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Description%20of%20set.png?raw=true "Table 1. Description of Sets")
+![Alt text](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Description%20of%20set.png?raw=true "Table 1. Description of Sets")        
+                               
 
 
                                               
