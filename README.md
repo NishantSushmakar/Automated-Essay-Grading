@@ -34,7 +34,7 @@ Below , table 1 describes the different sets.
 
 
 
-![Alt text](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Description_of_set.png?raw=true "Table 1. Description of Sets")
+![Alt text](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Description%20of%20set.png?raw=true "Table 1. Description of Sets")
 
 
                                               
@@ -83,7 +83,7 @@ After the extraction of the features from the essay the dimensionality of the mo
 
 To check the correlation of features within themselves such that the model prevents collinearity then visualization was used as stated in fig 2.
 
-![Alt text](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Coorelation%20of%20features.png?raw=true title="Fig 2. Correlation of Features")
+![Alt text](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Coorelation%20of%20features.png?raw=true "Fig 2. Correlation of Features")
 
 
 
