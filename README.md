@@ -93,3 +93,26 @@ Highly correlated features were removed by assessing the Fig 2.
 
 #### Models 
 We have experimented with four machine learning models i.e. Linear Support Vector Classification , Linear Regression , Random Forest Regressor and Elastic Net . Linear Support Vector derives a linear decision curve and does not accept a kernel whereas the simplest algorithm is the Linear Regression which uses stochastic gradient descent to find out the best fitting line for the model but it does not avoid overfitting as the dataset is tabulated with features Random forest regression can be very useful. To cure the problem of overfitting, Elastic Net can be used as it adds both types of regularization to Linear regression and  the model can be very much useful.
+
+## References 
+
+1. M. A. Hearst, "The debate on automated essay grading," in IEEE Intelligent Systems and their Applications, vol. 15, no. 5, pp. 22-37, Sept.-Oct. 2000, doi: 10.1109/5254.889104.
+2. Valenti, S., Neri, F. & Cucchiarelli, A. (2003). An Overview of Current Research on Automated Essay Grading. Journal of Information Technology Education: Research, 2(1), 319-330. Informing Science Institute. Retrieved August 31, 2020 from https://www.learntechlib.org/p/111481/.
+3. Reilly, E. D., Stafford, R. E., Williams, K. M., & Corliss, S. B. (2014). Evaluating the validity and applicability of automated essay scoring in two massive open online courses. International Review of Research in Open and Distance Learning, 15(5), 83–98. https://doi.org/10.19173/irrodl.v15i5.1857
+4. Automated Essay Grading Using Machine Learning Manvi Mahana, Mishel Johns, Ashwin Apte CS229 Machine Learning
+5. Östling, R., Smolentzov, A., Tyrefors Hinnerich, B., & Höglin, E. (2013). Automated Essay Scoring for Swedish. In Proceedings of the Eighth Workshop on Innovative Use of NLP for Building Educational Applications (pp. 42–47). Atlanta, Georgia: Association for Computational Linguistics. Retrieved from http://www.diva-portal.org/smash/record.jsf?pid=diva2:625983
+6. Zesch, T., Wojatzki, M., & Scholten-Akoun, D. (2015). Task-Independent Features for Automated Essay Grading (pp. 224–232). Association for Computational Linguistics (ACL). https://doi.org/10.3115/v1/w15-0626
+7. Lvq, B., & Techniques, N. L. P. (2016). A Hybrid Scheme for Automated Essay Grading, 65–70.
+8. Ramalingam, V. V., Pandian, A., Chetry, P., & Nigam, H. (2018). Automated Essay Grading using Machine Learning Algorithm. In Journal of Physics: Conference Series (Vol. 1000). Institute of Physics Publishing. https://doi.org/10.1088/1742-6596/1000/1/012030
+9. Page, E. B. (2003). Project Essay Grade: PEG. In M. D. Shermis & J. Burstein (Eds.), Automated essay scoring: A cross-disciplinary perspective (p. 43–54). Lawrence Erlbaum Associates Publishers. 
+10. Shermis, M. D., Koch, C. M., Page, E. B., Keith, T. Z., & Harrington, S. (2002). Trait Ratings for Automated Essay Grading. Educational and Psychological Measurement, 62(1), 5–18. https://doi.org/10.1177/001316440206200101 
+11. Williams, Robert. 2001. Automated essay grading: an evaluation of four conceptual models, in Kulski, Martijntje and Herrman, Allan (ed), New horizons in university teaching and learning: Responding to change, pp 173-184. Perth Australia: Centre for Educational Advancement, Curtin University.
+12. S.W. Freedman, “Student Characteristics and Essay Test Writing Performance,” Research in the Teaching of English, Vol. 17, 1983. 
+13. M. Russell and W. Haney, “Testing Writing on Computers: An Experiment Comparing Student Performance in Tests Conducted via Computer and via Paper-and-Pencil,” Education Policy Analysis Archives, Vol. 5, No. 3, May/June, 1997; http://epaa.asu.edu/ epaa/v5n3.html (current Nov. 2000). 
+14. R.E. Bennett and I.I. Bejar, “Validity and Automated Scoring: It’s Not Only the Scoring,” Educational Measurement: Issues and Practice, Vol. 17, No. 4, 1998. pp. 9–17. 
+15. P. Foltz, W. Kintsch, and T. Landauer, “The Measurement of Textual Coherence with Latent Semantic Analysis,” Discourse Processes, Vol. 25, 1998, pp. 285–308. 
+16. M. Light (Ed.), Proc. Workshop on Reading Comprehension Tests as Evaluation for Computer-Based Language Understanding Systems, Association for Computational Linguistics, New Brunswick, 2000.
+
+## Dataset
+https://www.kaggle.com/c/asap-aes
+
