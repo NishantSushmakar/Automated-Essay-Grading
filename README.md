@@ -83,7 +83,7 @@ After the extraction of the features from the essay the dimensionality of the mo
 
 To check the correlation of features within themselves such that the model prevents collinearity then visualization was used as stated in fig 2.
 
-![Alt text](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Coorelation of features.png?raw=true title="Fig 2. Correlation of Features")
+![Alt text](https://github.com/NishantSushmakar/Automated-Essay-Grading/blob/main/Coorelation%20of%20features.png?raw=true title="Fig 2. Correlation of Features")
 
 
 
